@@ -7,3 +7,7 @@ Po wrzuceniu kodu z poprzednich zajęć, stworzyłem plik test.py stworzony w te
 # Zadanie 2
 <img width="555" height="572" alt="image" src="https://github.com/user-attachments/assets/c1d3115b-da8c-4dc9-96a9-82186d155ffe" />
 <img width="656" height="331" alt="image" src="https://github.com/user-attachments/assets/09cc3ba7-579b-46f1-92e6-34c1beb9a789" />
+
+
+# Zadanie 3
+<img width="495" height="504" alt="image" src="https://github.com/user-attachments/assets/f1506e4b-6dca-42a8-a0ee-66eb6f58bb14" />
