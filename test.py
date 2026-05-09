@@ -6,22 +6,22 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 
-# Używamy dekoratora @pytest.fixture, aby wczytać model i dane testowe
-# tylko raz i udostępniać je poszczególnym testom.
+# pytest.fixture spowoduje utworzenie zależności z modelu, która zostanie wstrzyknieta w kazdy z testów zamiast 
+#ładować model od nowa
 @pytest.fixture(scope="module")
 def setup_model_and_data():
-    # 1. Wczytanie Twojego gotowego modelu
+    #wczytywanie pliku pickle
     with open('model_iris_v1.pkl', 'rb') as f:
         model = pickle.load(f)
 
-    # 2. Wczytanie prawdziwego zbioru danych Iris do weryfikacji modelu
+    # zbior do testowania
     iris = load_iris()
-    # Dzielimy dane na treningowe i testowe (do testu bierzemy 20% danych)
+    # dzielenie danych na podzbiory
     X_train, X_test, y_train, y_test = train_test_split(
         iris.data, iris.target, test_size=0.2, random_state=42
     )
 
-    # 3. Wygenerowanie predykcji Twoim modelem na danych testowych
+    # predykcja modelu
     preds = model.predict(X_test)
 
     return model, preds, y_test
