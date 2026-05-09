@@ -11,6 +11,9 @@ Zadanie polegało na stworzeniu workflow które będzie uruchamiało się przy p
 
 
 # Zadanie 3
-
+Rozbudowa pliku main.yml. Poza uruchamianiem testów wdrożono tworzenie kontenera z aplikacją oraz publikował go. Do publikacji wykorzystałem Github Container Registry. Po utworzeniu tego pliku okazało się że korzystając z tej technologii, nazwa mojego repozytorium(będąca moją etykietą) jest niedozwolona, ponieważ zawiera w sobie duże litery. 
 <img width="488" height="379" alt="image" src="https://github.com/user-attachments/assets/a564cc20-f3e6-4bf5-9573-647ce95cb064" />
-
+Wynik Poprawionego workflow
+<img width="654" height="406" alt="image" src="https://github.com/user-attachments/assets/e95f2502-8f90-4d67-9901-142f591ab849" />
+Sekcja Packages
+<img width="630" height="117" alt="image" src="https://github.com/user-attachments/assets/568533dd-9e4a-48de-b89b-21e710d43e51" />
