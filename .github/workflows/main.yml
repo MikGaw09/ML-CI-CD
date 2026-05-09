@@ -42,4 +42,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.actor }}/ml-ci-cd:latest
+          tags: ghcr.io/mikgaw09/ml-ci-cd:latest
